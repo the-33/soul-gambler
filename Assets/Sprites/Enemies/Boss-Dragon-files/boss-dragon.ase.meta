@@ -1,0 +1,556 @@
+fileFormatVersion: 2
+guid: 3554d70e5fabf74489c8bf54d9468498
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: boss-dragon_Frame_0
+    originalName: 
+    pivot: {x: 0.44497612, y: -0.059701495}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 883
+      width: 209
+      height: 134
+    spriteID: 3bf08e3f0b362834e9eb2770c6aac941
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 883}
+  - name: boss-dragon_Frame_1
+    originalName: 
+    pivot: {x: 0.44497612, y: -0.06015038}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 433
+      width: 209
+      height: 133
+    spriteID: 47f052649533f8648882575a9445b72f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 433}
+  - name: boss-dragon_Frame_2
+    originalName: 
+    pivot: {x: 0.44075832, y: -0.061068706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 574
+      width: 211
+      height: 131
+    spriteID: 33e3853a0a6aa82488c6b9f8a1a87409
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 574}
+  - name: boss-dragon_Frame_3
+    originalName: 
+    pivot: {x: 0.44497612, y: -0.044117644}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 595
+      width: 209
+      height: 136
+    spriteID: b10110bd86c879a4bbe9ae5d127b8e92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 595}
+  - name: boss-dragon_Frame_4
+    originalName: 
+    pivot: {x: 0.43661976, y: -0.059259262}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 148
+      width: 213
+      height: 135
+    spriteID: ea437e8d73fb8b84982bc7724373778f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 148}
+  - name: boss-dragon_Frame_5
+    originalName: 
+    pivot: {x: 0.44497612, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 739
+      width: 209
+      height: 136
+    spriteID: a1dd374cf44411b47a9c6c3962464e92
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 739}
+  - name: boss-dragon_Frame_6
+    originalName: 
+    pivot: {x: 0.44497612, y: -0.059701495}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 291
+      width: 209
+      height: 134
+    spriteID: 2de264cd0fb0ad948937f62a653988d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 291}
+  - name: boss-dragon_Frame_7
+    originalName: 
+    pivot: {x: 0.4347826, y: -0.057142857}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 447
+      width: 207
+      height: 140
+    spriteID: e65a2d51cf977744382c265e6a8b2a94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 447}
+  - name: boss-dragon_Frame_8
+    originalName: 
+    pivot: {x: 0.34736842, y: -0.037558686}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 226
+      width: 190
+      height: 213
+    spriteID: 83a4a7d7e6d2c2b42a24e19a91b7b27d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 226}
+  - name: boss-dragon_Frame_9
+    originalName: 
+    pivot: {x: 0.34054056, y: -0.031620555}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 185
+      height: 253
+    spriteID: d280e1792efe5f54a98dba52b35b8a82
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: boss-dragon_Frame_10
+    originalName: 
+    pivot: {x: 0.50476193, y: -0.03738318}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 4
+      width: 210
+      height: 214
+    spriteID: d65f781426eae6a46b617eafe82f5bce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 197, y: 4}
+  - name: boss-dragon_Frame_11
+    originalName: 
+    pivot: {x: 0.5086207, y: -0.05882353}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 4
+      width: 232
+      height: 136
+    spriteID: 315cd9dbbf5a4c54b8a66f9fef366064
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 4}
+  - name: boss-dragon_Frame_12
+    originalName: 
+    pivot: {x: 0.5198238, y: -0.07920792}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 713
+      width: 227
+      height: 101
+    spriteID: 7c410579ac7932346b3a2e50191c747b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 713}
+  - name: boss-dragon_Frame_13
+    originalName: 
+    pivot: {x: 0.5339366, y: -0.08080808}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 415
+      y: 822
+      width: 221
+      height: 99
+    spriteID: a68b98f6dfddb854798677a742549a5b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 415, y: 822}
+  - name: boss-dragon_Frame_14
+    originalName: 
+    pivot: {x: 0.53881276, y: -0.08080808}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 655
+      y: 4
+      width: 219
+      height: 99
+    spriteID: 594a11d70bfc7dd47905ff1e91b71e96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 655, y: 4}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1323079987
+    name: boss-dragon
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: boss-dragon_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 83
+        y: 8
+        width: 209
+        height: 134
+      spriteId: 3bf08e3f0b362834e9eb2770c6aac941
+    - name: boss-dragon_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 83
+        y: 8
+        width: 209
+        height: 133
+      spriteId: 47f052649533f8648882575a9445b72f
+    - name: boss-dragon_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 83
+        y: 8
+        width: 211
+        height: 131
+      spriteId: 33e3853a0a6aa82488c6b9f8a1a87409
+    - name: boss-dragon_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 83
+        y: 6
+        width: 209
+        height: 136
+      spriteId: b10110bd86c879a4bbe9ae5d127b8e92
+    - name: boss-dragon_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 83
+        y: 8
+        width: 213
+        height: 135
+      spriteId: ea437e8d73fb8b84982bc7724373778f
+    - name: boss-dragon_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 83
+        y: 8
+        width: 209
+        height: 136
+      spriteId: a1dd374cf44411b47a9c6c3962464e92
+    - name: boss-dragon_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 83
+        y: 8
+        width: 209
+        height: 134
+      spriteId: 2de264cd0fb0ad948937f62a653988d9
+    - name: boss-dragon_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 86
+        y: 8
+        width: 207
+        height: 140
+      spriteId: e65a2d51cf977744382c265e6a8b2a94
+    - name: boss-dragon_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 110
+        y: 8
+        width: 190
+        height: 213
+      spriteId: 83a4a7d7e6d2c2b42a24e19a91b7b27d
+    - name: boss-dragon_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 113
+        y: 8
+        width: 185
+        height: 253
+      spriteId: d280e1792efe5f54a98dba52b35b8a82
+    - name: boss-dragon_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 70
+        y: 8
+        width: 210
+        height: 214
+      spriteId: d65f781426eae6a46b617eafe82f5bce
+    - name: boss-dragon_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 58
+        y: 8
+        width: 232
+        height: 136
+      spriteId: 315cd9dbbf5a4c54b8a66f9fef366064
+    - name: boss-dragon_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 58
+        y: 8
+        width: 227
+        height: 101
+      spriteId: 7c410579ac7932346b3a2e50191c747b
+    - name: boss-dragon_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 58
+        y: 8
+        width: 221
+        height: 99
+      spriteId: a68b98f6dfddb854798677a742549a5b
+    - name: boss-dragon_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 58
+        y: 8
+        width: 219
+        height: 99
+      spriteId: 594a11d70bfc7dd47905ff1e91b71e96
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 352, y: 287}

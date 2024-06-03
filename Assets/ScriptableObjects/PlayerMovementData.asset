@@ -40,8 +40,8 @@ MonoBehaviour:
   wallJumpRunLerp: 0.075
   wallJumpTime: 0.3
   doTurnOnWallJump: 0
-  slideSpeed: -12
-  slideAccel: 12
+  slideSpeed: -5
+  slideAccel: 5
   coyoteTime: 0.1
   jumpInputBufferTime: 0.2
   dashAmount: 1
@@ -49,11 +49,11 @@ MonoBehaviour:
   dashSleepTime: 0
   dashAttackTime: 0
   dashEndTime: 0.2
-  dashEndSpeed: {x: 1, y: 10}
+  dashEndSpeed: {x: 10, y: 10}
   dashEndRunLerp: 0.5
   dashRefillTime: 0.5
   dashInputBufferTime: 0.1
   staminaCostRunning: 2
-  staminaCostJumping: 3
-  staminaCostRolling: 3
+  staminaCostJumping: 0
+  staminaCostRolling: 1.5
   staminaRegen: 2

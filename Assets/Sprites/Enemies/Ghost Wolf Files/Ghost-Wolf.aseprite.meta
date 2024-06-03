@@ -1,0 +1,1060 @@
+fileFormatVersion: 2
+guid: 7686418c3ad855446bdb623a9491249f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Ghost-Wolf_Frame_16
+    originalName: 
+    pivot: {x: 0.4117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 238
+      width: 68
+      height: 30
+    spriteID: b99cafe3b702e4340bc928a9d90ac511
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 238}
+  - name: Ghost-Wolf_Frame_17
+    originalName: 
+    pivot: {x: 0.41333336, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 363
+      y: 136
+      width: 75
+      height: 34
+    spriteID: 2fdcdd9d1ebaf934a869d8a5640bb2a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 363, y: 136}
+  - name: Ghost-Wolf_Frame_18
+    originalName: 
+    pivot: {x: 0.4383562, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 295
+      y: 68
+      width: 73
+      height: 41
+    spriteID: 6cef9dce511459a43b883ee8737df12a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 295, y: 68}
+  - name: Ghost-Wolf_Frame_19
+    originalName: 
+    pivot: {x: 0.3943662, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 216
+      y: 68
+      width: 71
+      height: 47
+    spriteID: 6a3db2dec73d20646b668948437a938e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 216, y: 68}
+  - name: Ghost-Wolf_Frame_20
+    originalName: 
+    pivot: {x: 0.3943662, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 164
+      y: 4
+      width: 71
+      height: 52
+    spriteID: e16f7cadbd5236d428ee8ef5ea64c794
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 164, y: 4}
+  - name: Ghost-Wolf_Frame_21
+    originalName: 
+    pivot: {x: 0.38888887, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 68
+      width: 72
+      height: 47
+    spriteID: 423cb75ddfad1214d959204bc640c8f6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 68}
+  - name: Ghost-Wolf_Frame_22
+    originalName: 
+    pivot: {x: 0.38888887, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 389
+      y: 4
+      width: 72
+      height: 50
+    spriteID: 585743f062112374dbe0e52ec8ca78b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 389, y: 4}
+  - name: Ghost-Wolf_Frame_23
+    originalName: 
+    pivot: {x: 0.38888887, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 84
+      y: 4
+      width: 72
+      height: 54
+    spriteID: 2165ea5d6bc82b64793adccc7fa862c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 84, y: 4}
+  - name: Ghost-Wolf_Frame_24
+    originalName: 
+    pivot: {x: 0.38888887, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 72
+      height: 56
+    spriteID: e3bc707cfa00e2f4cb0fa5d9e95ab3d0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Ghost-Wolf_Frame_25
+    originalName: 
+    pivot: {x: 0.4117647, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 146
+      y: 238
+      width: 68
+      height: 30
+    spriteID: 7c35aab2b88ea8143bbc8856e971aa16
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 146, y: 238}
+  - name: Ghost-Wolf_Frame_26
+    originalName: 
+    pivot: {x: 0.44615385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 243
+      y: 4
+      width: 65
+      height: 56
+    spriteID: 6c82056b1cf41564b973c4552c30b80f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 243, y: 4}
+  - name: Ghost-Wolf_Frame_27
+    originalName: 
+    pivot: {x: 0.44615385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 316
+      y: 4
+      width: 65
+      height: 56
+    spriteID: 5fc417fffc611b44cab3467c934f83c2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 316, y: 4}
+  - name: Ghost-Wolf_Frame_28
+    originalName: 
+    pivot: {x: 0.3846154, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 69
+      y: 136
+      width: 65
+      height: 41
+    spriteID: 534692f08690e4944bfbe96b23e2f064
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 69, y: 136}
+  - name: Ghost-Wolf_Frame_30
+    originalName: 
+    pivot: {x: 0.3859649, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 136
+      width: 57
+      height: 48
+    spriteID: bfcabb81ce3347d4a9780ad5403c90c6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 136}
+  - name: Ghost-Wolf_Frame_31
+    originalName: 
+    pivot: {x: 0.4181818, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 136
+      width: 55
+      height: 48
+    spriteID: e0b98241289d38e4c9ad64631afa9eff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 136}
+  - name: Ghost-Wolf_Frame_0
+    originalName: 
+    pivot: {x: 0.44615385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 238
+      width: 65
+      height: 30
+    spriteID: bdf0e2b3141dbd54c92ca219e66e76df
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 238}
+  - name: Ghost-Wolf_Frame_1
+    originalName: 
+    pivot: {x: 0.23255816, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 447
+      y: 192
+      width: 43
+      height: 35
+    spriteID: 228f1c36048c19144afe28583d823b2c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 447, y: 192}
+  - name: Ghost-Wolf_Frame_2
+    originalName: 
+    pivot: {x: 0.25490198, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 376
+      y: 68
+      width: 51
+      height: 58
+    spriteID: eeabe4f22ed75cb478f1650bf65b64fb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 376, y: 68}
+  - name: Ghost-Wolf_Frame_3
+    originalName: 
+    pivot: {x: 0.27083334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 435
+      y: 68
+      width: 48
+      height: 58
+    spriteID: 3affe4cb0b6fd8a49ac56a582ca85433
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 435, y: 68}
+  - name: Ghost-Wolf_Frame_4
+    originalName: 
+    pivot: {x: 0.46875, y: -0.65625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 375
+      y: 192
+      width: 64
+      height: 32
+    spriteID: c4ad2befa0ff2914a9a4a943dd77cef1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 375, y: 192}
+  - name: Ghost-Wolf_Frame_5
+    originalName: 
+    pivot: {x: 0.55172414, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 68
+      width: 58
+      height: 60
+    spriteID: 981cc957e6372684baad71f4be05f917
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 68}
+  - name: Ghost-Wolf_Frame_6
+    originalName: 
+    pivot: {x: 0.55172414, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 70
+      y: 68
+      width: 58
+      height: 60
+    spriteID: e1198f0febe23084bbac388be5f7d673
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 70, y: 68}
+  - name: Ghost-Wolf_Frame_7
+    originalName: 
+    pivot: {x: 0.44615385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 373
+      y: 238
+      width: 65
+      height: 30
+    spriteID: 8350171ccae72cf4fba717853de1de50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 373, y: 238}
+  - name: Ghost-Wolf_Frame_8
+    originalName: 
+    pivot: {x: 0.38709673, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 192
+      width: 62
+      height: 37
+    spriteID: 21c4c5c273aa59740a6ac68a015efbac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 192}
+  - name: Ghost-Wolf_Frame_9
+    originalName: 
+    pivot: {x: 0.36363634, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 229
+      y: 192
+      width: 66
+      height: 33
+    spriteID: c020265721581d04a81cae9c3248beb2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 229, y: 192}
+  - name: Ghost-Wolf_Frame_10
+    originalName: 
+    pivot: {x: 0.37499997, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 303
+      y: 192
+      width: 64
+      height: 34
+    spriteID: 338230fc243725d4faa194428d3038bb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 303, y: 192}
+  - name: Ghost-Wolf_Frame_11
+    originalName: 
+    pivot: {x: 0.35384616, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 192
+      width: 65
+      height: 38
+    spriteID: 75196ea8b34046246a9bcb57400e34d5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 192}
+  - name: Ghost-Wolf_Frame_12
+    originalName: 
+    pivot: {x: 0.25423726, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 446
+      y: 136
+      width: 59
+      height: 42
+    spriteID: 9c48297fc76761e409956bd2a937afc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 446, y: 136}
+  - name: Ghost-Wolf_Frame_13
+    originalName: 
+    pivot: {x: 0.5116279, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 136
+      width: 86
+      height: 30
+    spriteID: 2d6599f0c5b3c9f4896dfb75e85947a5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 269, y: 136}
+  - name: Ghost-Wolf_Frame_14
+    originalName: 
+    pivot: {x: 0.5135135, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 147
+      y: 192
+      width: 74
+      height: 30
+    spriteID: acffe3fb0fb38d54398fdef4fa4a0f85
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 147, y: 192}
+  - name: Ghost-Wolf_Frame_15
+    originalName: 
+    pivot: {x: 0.5285715, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 222
+      y: 238
+      width: 70
+      height: 29
+    spriteID: ece23e35f1386c64eae627710d2b60b3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 222, y: 238}
+  - name: Ghost-Wolf_Frame_29
+    originalName: 
+    pivot: {x: 0.43103448, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 238
+      width: 58
+      height: 40
+    spriteID: 2efe55d28872559468d3a76efb62a887
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 238}
+  - name: Ghost-Wolf_Frame_32
+    originalName: 
+    pivot: {x: 0.39285713, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 205
+      y: 136
+      width: 56
+      height: 47
+    spriteID: 2b7dd84ebeb967844b73d333a34d2091
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 205, y: 136}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 366004212
+    name: Ghost-Wolf
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Ghost-Wolf_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 16
+        y: 0
+        width: 68
+        height: 30
+      spriteId: b99cafe3b702e4340bc928a9d90ac511
+    - name: Ghost-Wolf_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 13
+        y: 0
+        width: 75
+        height: 34
+      spriteId: 2fdcdd9d1ebaf934a869d8a5640bb2a4
+    - name: Ghost-Wolf_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 12
+        y: 0
+        width: 73
+        height: 41
+      spriteId: 6cef9dce511459a43b883ee8737df12a
+    - name: Ghost-Wolf_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 16
+        y: 0
+        width: 71
+        height: 47
+      spriteId: 6a3db2dec73d20646b668948437a938e
+    - name: Ghost-Wolf_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 16
+        y: 0
+        width: 71
+        height: 52
+      spriteId: e16f7cadbd5236d428ee8ef5ea64c794
+    - name: Ghost-Wolf_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 16
+        y: 0
+        width: 72
+        height: 47
+      spriteId: 423cb75ddfad1214d959204bc640c8f6
+    - name: Ghost-Wolf_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 16
+        y: 0
+        width: 72
+        height: 50
+      spriteId: 585743f062112374dbe0e52ec8ca78b4
+    - name: Ghost-Wolf_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 16
+        y: 0
+        width: 72
+        height: 54
+      spriteId: 2165ea5d6bc82b64793adccc7fa862c2
+    - name: Ghost-Wolf_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 16
+        y: 0
+        width: 72
+        height: 56
+      spriteId: e3bc707cfa00e2f4cb0fa5d9e95ab3d0
+    - name: Ghost-Wolf_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 16
+        y: 0
+        width: 68
+        height: 30
+      spriteId: 7c35aab2b88ea8143bbc8856e971aa16
+    - name: Ghost-Wolf_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 15
+        y: 0
+        width: 65
+        height: 56
+      spriteId: 6c82056b1cf41564b973c4552c30b80f
+    - name: Ghost-Wolf_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 15
+        y: 0
+        width: 65
+        height: 56
+      spriteId: 5fc417fffc611b44cab3467c934f83c2
+    - name: Ghost-Wolf_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 19
+        y: 0
+        width: 65
+        height: 41
+      spriteId: 534692f08690e4944bfbe96b23e2f064
+    - name: Ghost-Wolf_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 22
+        y: 0
+        width: 57
+        height: 48
+      spriteId: bfcabb81ce3347d4a9780ad5403c90c6
+    - name: Ghost-Wolf_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 21
+        y: 0
+        width: 55
+        height: 48
+      spriteId: e0b98241289d38e4c9ad64631afa9eff
+    - name: Ghost-Wolf_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 15
+        y: 0
+        width: 65
+        height: 30
+      spriteId: bdf0e2b3141dbd54c92ca219e66e76df
+    - name: Ghost-Wolf_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 34
+        y: 0
+        width: 43
+        height: 35
+      spriteId: 228f1c36048c19144afe28583d823b2c
+    - name: Ghost-Wolf_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 31
+        y: 0
+        width: 51
+        height: 58
+      spriteId: eeabe4f22ed75cb478f1650bf65b64fb
+    - name: Ghost-Wolf_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 31
+        y: 0
+        width: 48
+        height: 58
+      spriteId: 3affe4cb0b6fd8a49ac56a582ca85433
+    - name: Ghost-Wolf_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 14
+        y: 21
+        width: 64
+        height: 32
+      spriteId: c4ad2befa0ff2914a9a4a943dd77cef1
+    - name: Ghost-Wolf_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 12
+        y: 0
+        width: 58
+        height: 60
+      spriteId: 981cc957e6372684baad71f4be05f917
+    - name: Ghost-Wolf_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 12
+        y: 0
+        width: 58
+        height: 60
+      spriteId: e1198f0febe23084bbac388be5f7d673
+    - name: Ghost-Wolf_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 15
+        y: 0
+        width: 65
+        height: 30
+      spriteId: 8350171ccae72cf4fba717853de1de50
+    - name: Ghost-Wolf_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 20
+        y: 0
+        width: 62
+        height: 37
+      spriteId: 21c4c5c273aa59740a6ac68a015efbac
+    - name: Ghost-Wolf_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 20
+        y: 0
+        width: 66
+        height: 33
+      spriteId: c020265721581d04a81cae9c3248beb2
+    - name: Ghost-Wolf_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 20
+        y: 0
+        width: 64
+        height: 34
+      spriteId: 338230fc243725d4faa194428d3038bb
+    - name: Ghost-Wolf_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 21
+        y: 0
+        width: 65
+        height: 38
+      spriteId: 75196ea8b34046246a9bcb57400e34d5
+    - name: Ghost-Wolf_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 29
+        y: 0
+        width: 59
+        height: 42
+      spriteId: 9c48297fc76761e409956bd2a937afc8
+    - name: Ghost-Wolf_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 0
+        y: 0
+        width: 86
+        height: 30
+      spriteId: 2d6599f0c5b3c9f4896dfb75e85947a5
+    - name: Ghost-Wolf_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 6
+        y: 0
+        width: 74
+        height: 30
+      spriteId: acffe3fb0fb38d54398fdef4fa4a0f85
+    - name: Ghost-Wolf_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 7
+        y: 0
+        width: 70
+        height: 29
+      spriteId: ece23e35f1386c64eae627710d2b60b3
+    - name: Ghost-Wolf_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 19
+        y: 0
+        width: 58
+        height: 40
+      spriteId: 2efe55d28872559468d3a76efb62a887
+    - name: Ghost-Wolf_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 22
+        y: 0
+        width: 56
+        height: 47
+      spriteId: 2b7dd84ebeb967844b73d333a34d2091
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 88, y: 60}

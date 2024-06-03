@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: e08803fd6208b724c8013ba41ec786d4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: boss-wendigo_Frame_0
+    originalName: 
+    pivot: {x: 0.58914727, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 164
+      width: 129
+      height: 69
+    spriteID: 9200be9973ef27f49a1ab4365fbf1896
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 164}
+  - name: boss-wendigo_Frame_1
+    originalName: 
+    pivot: {x: 0.63492066, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 343
+      width: 126
+      height: 66
+    spriteID: c89062d111d7cbe49870d7ca042ad2eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 343}
+  - name: boss-wendigo_Frame_2
+    originalName: 
+    pivot: {x: 0.5726496, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 492
+      width: 117
+      height: 68
+    spriteID: 2e01c23b43b5246418b6ab8ed3fa11a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 492}
+  - name: boss-wendigo_Frame_3
+    originalName: 
+    pivot: {x: 0.5925926, y: -0.015625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 353
+      y: 4
+      width: 108
+      height: 64
+    spriteID: d760c7f4921f5ca4eaeccc95dd774d12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 353, y: 4}
+  - name: boss-wendigo_Frame_4
+    originalName: 
+    pivot: {x: 0.6421053, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 799
+      width: 95
+      height: 77
+    spriteID: b64fcc9fff1828240a368793a31fff65
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 799}
+  - name: boss-wendigo_Frame_5
+    originalName: 
+    pivot: {x: 0.5964913, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 77
+      width: 114
+      height: 79
+    spriteID: c9fdceb69e9843a4d94b3d08e5890b56
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 77}
+  - name: boss-wendigo_Frame_6
+    originalName: 
+    pivot: {x: 0.59322035, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 934
+      width: 118
+      height: 82
+    spriteID: 289902d7095a68741a7644f9940d513a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 934}
+  - name: boss-wendigo_Frame_7
+    originalName: 
+    pivot: {x: 0.67326736, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 640
+      width: 101
+      height: 75
+    spriteID: 723236e60c0c5aa40a335d7e09dd7b0c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 640}
+  - name: boss-wendigo_Frame_8
+    originalName: 
+    pivot: {x: 0.64772725, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 884
+      width: 88
+      height: 79
+    spriteID: 3b8d6f0d62012494cabdf2bb652213fd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 884}
+  - name: boss-wendigo_Frame_9
+    originalName: 
+    pivot: {x: 0.6179775, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 241
+      width: 89
+      height: 94
+    spriteID: dd5dc60df07012844bf41d1d6b1acb2a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 241}
+  - name: boss-wendigo_Frame_10
+    originalName: 
+    pivot: {x: 0.5742574, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 754
+      width: 101
+      height: 99
+    spriteID: 05a86ed76be960640ae0e8c089583814
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 754}
+  - name: boss-wendigo_Frame_11
+    originalName: 
+    pivot: {x: 0.48181814, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 127
+      width: 110
+      height: 116
+    spriteID: 9638f2bc0b063914a85d3ce384db1dd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 127}
+  - name: boss-wendigo_Frame_12
+    originalName: 
+    pivot: {x: 0.3416149, y: 0.008695652}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 161
+      height: 115
+    spriteID: 85398330e195355449e2bcc0a6a7d033
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: boss-wendigo_Frame_13
+    originalName: 
+    pivot: {x: 0.7454545, y: -0.014705882}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 723
+      width: 110
+      height: 68
+    spriteID: 5a7857db122af92458e3ab64e58ba4b9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 723}
+  - name: boss-wendigo_Frame_14
+    originalName: 
+    pivot: {x: 0.83720934, y: -0.015384615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 4
+      width: 172
+      height: 65
+    spriteID: 228aa61cbf0dd3b458333d1b4d1a2852
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 4}
+  - name: boss-wendigo_Frame_15
+    originalName: 
+    pivot: {x: 0.8066667, y: -0.015384615}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 861
+      width: 150
+      height: 65
+    spriteID: 3d1ec69eb1ffe7843b55595b16c20f20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 861}
+  - name: boss-wendigo_Frame_16
+    originalName: 
+    pivot: {x: 0.79032266, y: -0.015625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 568
+      width: 124
+      height: 64
+    spriteID: 4dbac289cbc0f304d9c4cd5372f563f5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 568}
+  - name: boss-wendigo_Frame_17
+    originalName: 
+    pivot: {x: 0.7647059, y: -0.014925372}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 173
+      y: 417
+      width: 119
+      height: 67
+    spriteID: 3cb5b72f315920a4f9e1522d0f16abca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 173, y: 417}
+  - name: boss-wendigo_Frame_18
+    originalName: 
+    pivot: {x: 0.43877548, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 251
+      width: 98
+      height: 120
+    spriteID: 5d7b37ed30712df4788c63f1188ee525
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 251}
+  - name: boss-wendigo_Frame_19
+    originalName: 
+    pivot: {x: 0.44897962, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 379
+      width: 98
+      height: 117
+    spriteID: 10216570b59f5bb41a9e674dd20e6631
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 379}
+  - name: boss-wendigo_Frame_20
+    originalName: 
+    pivot: {x: 0.44329897, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 504
+      width: 97
+      height: 117
+    spriteID: bd38363e86d8764498d4ea1b2d709a3d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 504}
+  - name: boss-wendigo_Frame_21
+    originalName: 
+    pivot: {x: 0.44329897, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 629
+      width: 97
+      height: 117
+    spriteID: 199a3638c81db374da6a248eb7eb63ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 629}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1408333657
+    name: boss-wendigo
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: boss-wendigo_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 76
+        y: 0
+        width: 129
+        height: 69
+      spriteId: 9200be9973ef27f49a1ab4365fbf1896
+    - name: boss-wendigo_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 72
+        y: 0
+        width: 126
+        height: 66
+      spriteId: c89062d111d7cbe49870d7ca042ad2eb
+    - name: boss-wendigo_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 85
+        y: 0
+        width: 117
+        height: 68
+      spriteId: 2e01c23b43b5246418b6ab8ed3fa11a6
+    - name: boss-wendigo_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 88
+        y: 1
+        width: 108
+        height: 64
+      spriteId: d760c7f4921f5ca4eaeccc95dd774d12
+    - name: boss-wendigo_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 91
+        y: 0
+        width: 95
+        height: 77
+      spriteId: b64fcc9fff1828240a368793a31fff65
+    - name: boss-wendigo_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 84
+        y: 0
+        width: 114
+        height: 79
+      spriteId: c9fdceb69e9843a4d94b3d08e5890b56
+    - name: boss-wendigo_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 82
+        y: 0
+        width: 118
+        height: 82
+      spriteId: 289902d7095a68741a7644f9940d513a
+    - name: boss-wendigo_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 84
+        y: 0
+        width: 101
+        height: 75
+      spriteId: 723236e60c0c5aa40a335d7e09dd7b0c
+    - name: boss-wendigo_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 95
+        y: 0
+        width: 88
+        height: 79
+      spriteId: 3b8d6f0d62012494cabdf2bb652213fd
+    - name: boss-wendigo_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 97
+        y: 0
+        width: 89
+        height: 94
+      spriteId: dd5dc60df07012844bf41d1d6b1acb2a
+    - name: boss-wendigo_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 94
+        y: 0
+        width: 101
+        height: 99
+      spriteId: 05a86ed76be960640ae0e8c089583814
+    - name: boss-wendigo_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 99
+        y: 0
+        width: 110
+        height: 116
+      spriteId: 9638f2bc0b063914a85d3ce384db1dd1
+    - name: boss-wendigo_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 97
+        y: -1
+        width: 161
+        height: 115
+      spriteId: 85398330e195355449e2bcc0a6a7d033
+    - name: boss-wendigo_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 70
+        y: 1
+        width: 110
+        height: 68
+      spriteId: 5a7857db122af92458e3ab64e58ba4b9
+    - name: boss-wendigo_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 8
+        y: 1
+        width: 172
+        height: 65
+      spriteId: 228aa61cbf0dd3b458333d1b4d1a2852
+    - name: boss-wendigo_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 31
+        y: 1
+        width: 150
+        height: 65
+      spriteId: 3d1ec69eb1ffe7843b55595b16c20f20
+    - name: boss-wendigo_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 54
+        y: 1
+        width: 124
+        height: 64
+      spriteId: 4dbac289cbc0f304d9c4cd5372f563f5
+    - name: boss-wendigo_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 61
+        y: 1
+        width: 119
+        height: 67
+      spriteId: 3cb5b72f315920a4f9e1522d0f16abca
+    - name: boss-wendigo_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 109
+        y: 0
+        width: 98
+        height: 120
+      spriteId: 5d7b37ed30712df4788c63f1188ee525
+    - name: boss-wendigo_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 108
+        y: 0
+        width: 98
+        height: 117
+      spriteId: 10216570b59f5bb41a9e674dd20e6631
+    - name: boss-wendigo_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 109
+        y: 0
+        width: 97
+        height: 117
+      spriteId: bd38363e86d8764498d4ea1b2d709a3d
+    - name: boss-wendigo_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 109
+        y: 0
+        width: 97
+        height: 117
+      spriteId: 199a3638c81db374da6a248eb7eb63ff
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 304, y: 142}

@@ -6,6 +6,7 @@
 	Feel free to use this in your own games, and I'd love to see anything you make!
  */
 
+using Cinemachine;
 using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -22,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
     public PlayerAnimations AnimHandler { get; private set; }
 	public PlayerAttack PlayerAttack { get; private set; }
 	public PlayerStats Stats { get; private set; }
+
+	[SerializeField] private PhysicsMaterial2D PlayerMaterial;
     #endregion
 
     #region STATE PARAMETERS
@@ -157,24 +160,25 @@ public class PlayerMovement : MonoBehaviour
 
 		if(Input.GetKey(KeyCode.LeftShift) && !IsCrouching && !IsDashAnimation)
 		{
-			if (!Stats.outOfStamina) IsRunning = true; else IsRunning = false;
+			if (!Stats.outOfStamina && Stats.ableToRun) IsRunning = true; else IsRunning = false;
 		}
 		else
 		{  IsRunning = false; }
-		#endregion
+        #endregion
 
-		#region COLLISION CHECKS
-		if (!IsDashing && !IsJumping)
+        #region COLLISION CHECKS
+        if (!IsDashing && !IsJumping)
 		{
 			//Ground Check
 			if (Physics2D.OverlapBox(_groundCheckPoint.position, _groundCheckSize, 0, _groundLayer)) //checks if set box overlaps with ground
 			{
 				if(LastOnGroundTime < -0.1f)
                 {
-					IsOnGround = true;
+					LastOnGroundTime = 0;
                 }
 
 				LastOnGroundTime = Data.coyoteTime; //if so sets the lastGrounded to coyoteTime
+                IsOnGround = true;
             }
 			else
 			{

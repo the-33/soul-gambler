@@ -6,9 +6,9 @@ using UnityEngine;
 
 public class PlayerAnimations : MonoBehaviour
 {
-    public Animator anim;
-    private PlayerMovement mov;
-    private PlayerAttack atk;
+    public Animator anim { get; private set; }
+    public PlayerMovement mov { get; private set; }
+    public PlayerAttack atk { get; private set; }
 
     public enum Weapons
     {

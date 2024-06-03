@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public PlayerAnimations animationHandler;
+    public PlayerAnimations animationHandler { get; private set; }
     public UIController UI;
+    public PlayerStats Stats { get; private set; }
 
     public bool IsAttacking;
     private int attackBuffer = 0;
@@ -17,49 +18,71 @@ public class PlayerAttack : MonoBehaviour
     public Weapon equippedWeapon1;
     public Weapon equippedWeapon2;
 
-    public bool changeWeapon;
+    public int handedWeaponNum;
+
+    private bool changeWeapon;
+    private bool parry;
+
+    public int Weapon1Damage { get; private set; }
+    public int Weapon2Damage { get; private set; }
 
     private void Start()
     {
         AttackCollider = transform.Find("Weapon").GetComponent<BoxCollider2D>();
         animationHandler = GetComponent<PlayerAnimations>();
+        Stats = GetComponent<PlayerStats>();
         handedWeapon = equippedWeapon1;
+        handedWeaponNum = 1;
     }
 
     private void Update()
     {
-        #region ATTACK
-        if (Input.GetKeyDown(KeyCode.Mouse0))
+        if (!UI.MenuActive)
         {
-            if(attackBuffer < maxBufferSize && IsAttacking) attackBuffer++;
-            if(!IsAttacking)
-            {
-                IsAttacking = true;
-                Attack();
-            }
-        }
-        #endregion
+            //#region ATTACK
+            //if (Input.GetKeyDown(KeyCode.Mouse0) && !Stats.outOfStamina && handedWeapon.minDex <= Stats.dexterity && handedWeapon.minStr <= Stats.strength)
+            //{
+            //    if (attackBuffer < maxBufferSize && IsAttacking) attackBuffer++;
+            //    if (!IsAttacking)
+            //    {
+            //        IsAttacking = true;
+            //        Attack();
+            //    }
+            //}
+            //#endregion
 
-        #region PARRY
-        if (Input.GetKeyDown(KeyCode.Mouse1) && !IsAttacking)
-        {
-            IsAttacking = true;
-            Parry();
-        }
-        #endregion
+            //#region PARRY
+            //if (Input.GetKeyDown(KeyCode.Mouse1) && !Stats.outOfStamina)
+            //{
+            //    if (!IsAttacking)
+            //    {
+            //        IsAttacking = true;
+            //        Parry();
+            //    }
+            //    else parry = true;
+            //}
 
-        #region CHANGE WEAPON
-        if(Input.mouseScrollDelta.y != 0)
-        {
-            if (!IsAttacking) ChangeWeapon(); else changeWeapon = true;
-        }
+            //if (parry && !IsAttacking)
+            //{
+            //    IsAttacking = true;
+            //    Parry();
+            //    parry = false;
+            //}
+            //#endregion
 
-        if(changeWeapon && !IsAttacking)
-        {
-            ChangeWeapon();
-            changeWeapon = false;
+            //#region CHANGE WEAPON
+            //if (Input.mouseScrollDelta.y != 0)
+            //{
+            //    if (!IsAttacking) ChangeWeapon(); else changeWeapon = true;
+            //}
+
+            //if (changeWeapon && !IsAttacking)
+            //{
+            //    ChangeWeapon();
+            //    changeWeapon = false;
+            //}
+            //#endregion
         }
-        #endregion
     }
 
     #region ATTACK METHODS
@@ -82,6 +105,7 @@ public class PlayerAttack : MonoBehaviour
     {
         AttackCollider.enabled = true;
         animationHandler.attack = true;
+        Stats.DropStamina(handedWeapon.staminaCost);
     }
     #endregion
 
@@ -89,6 +113,7 @@ public class PlayerAttack : MonoBehaviour
     private void Parry()
     {
         animationHandler.parry = true;
+        Stats.DropStamina(0.5f);
     }
 
     public void EndParry()
@@ -110,13 +135,15 @@ public class PlayerAttack : MonoBehaviour
         if(handedWeapon.weaponName == equippedWeapon1.weaponName)
         {
             handedWeapon = equippedWeapon2;
+            handedWeaponNum = 2;
         }
         else if(handedWeapon.weaponName == equippedWeapon2.weaponName)
         {
             handedWeapon = equippedWeapon1;
+            handedWeaponNum = 1;
         }
 
-        switch(handedWeapon.name)
+        switch(handedWeapon.weaponName)
         {
             case "Sword":
                 animationHandler.weapon = PlayerAnimations.Weapons.Sword;
@@ -141,6 +168,20 @@ public class PlayerAttack : MonoBehaviour
                 break;
         }
 
-        UI.SwitchWeapons(handedWeapon.name);
+        if(handedWeapon.minDex > Stats.dexterity || handedWeapon.minStr > Stats.strength)
+        {
+            UI.Cross.enabled = true;
+        }
+        else
+        {
+            UI.Cross.enabled = false;
+        }
+
+        UI.SwitchWeapons(handedWeapon.weaponName);
+    }
+
+    public void UpdateWeaponsDamage()
+    {
+        Weapon1Damage = equippedWeapon1.weaponBaseDamage + equippedWeapon1.weaponLevel*2;
     }
 }

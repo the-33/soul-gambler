@@ -152,12 +152,12 @@ TextureImporter:
       name: 64x64 weapons final_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 57
-        width: 14
-        height: 79
+        x: 4
+        y: 33
+        width: 16
+        height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: 64x64 weapons final_1
       rect:
         serializedVersion: 2
-        x: 33
-        y: 92
-        width: 10
-        height: 54
+        x: 27
+        y: 43
+        width: 15
+        height: 41
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: 64x64 weapons final_2
       rect:
         serializedVersion: 2
-        x: 50
-        y: 94
-        width: 11
-        height: 48
+        x: 49
+        y: 26
+        width: 20
+        height: 74
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,12 +215,12 @@ TextureImporter:
       name: 64x64 weapons final_3
       rect:
         serializedVersion: 2
-        x: 69
-        y: 76
-        width: 20
-        height: 74
+        x: 73
+        y: 54
+        width: 18
+        height: 39
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: 64x64 weapons final_4
       rect:
         serializedVersion: 2
-        x: 92
-        y: 117
-        width: 9
-        height: 31
+        x: 102
+        y: 46
+        width: 10
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,12 +257,12 @@ TextureImporter:
       name: 64x64 weapons final_5
       rect:
         serializedVersion: 2
-        x: 102
-        y: 92
-        width: 18
-        height: 59
+        x: 119
+        y: 8
+        width: 14
+        height: 89
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -278,12 +278,12 @@ TextureImporter:
       name: 64x64 weapons final_6
       rect:
         serializedVersion: 2
-        x: 130
-        y: 125
-        width: 30
-        height: 27
+        x: 79
+        y: 28
+        width: 5
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -299,661 +299,10 @@ TextureImporter:
       name: 64x64 weapons final_7
       rect:
         serializedVersion: 2
-        x: 168
-        y: 93
-        width: 9
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 837bc3f9716215744a851e88ff9f05b0
-      internalID: -1305833724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_8
-      rect:
-        serializedVersion: 2
-        x: 184
-        y: 91
-        width: 14
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42be3e9d205c6814891e51c42af83d4b
-      internalID: -1064956884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_9
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 60
-        width: 26
-        height: 90
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 808bdb97458656846b8a1286153d0dbc
-      internalID: -1600754141
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_10
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 94
-        width: 10
-        height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 51ef6128f3fb470489b075f8314be09b
-      internalID: 1977625061
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_11
-      rect:
-        serializedVersion: 2
-        x: 242
-        y: 78
-        width: 14
-        height: 62
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 664fbf1b052cc154ba50cb2f7b78d4a9
-      internalID: -1461154722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_12
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 60
-        width: 14
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ba838825af5d1747b9e9077bcc766be
-      internalID: 2129260803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_13
-      rect:
-        serializedVersion: 2
-        x: 287
-        y: 83
-        width: 7
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5646a4a0a7486b48a69a0e99d998bb7
-      internalID: 653466192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_14
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 83
-        width: 7
-        height: 61
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad86073ae43cc6942b7de524c6ce8438
-      internalID: 1144475370
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_15
-      rect:
-        serializedVersion: 2
-        x: 309
-        y: 88
-        width: 8
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 891f495b69a30ff4b8c17c758aebc2e0
-      internalID: 1593319697
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_16
-      rect:
-        serializedVersion: 2
-        x: 321
-        y: 47
-        width: 14
-        height: 79
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38e9b07a8c1a35945a80bdc61e8e6127
-      internalID: -501693521
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_17
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 41
-        width: 10
-        height: 87
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bbd1c4ad97570147b6d1b82d39bc183
-      internalID: 1177321751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_18
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 15
-        width: 16
-        height: 69
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e7e73e10cfd37049ae53d42294b806e
-      internalID: 1469460769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_19
-      rect:
-        serializedVersion: 2
-        x: 52
-        y: 45
-        width: 15
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8b66d5360e4e694ea80629891903df7
-      internalID: -857964922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_20
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 37
-        width: 14
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b792f29cb3698e47a56f89610b0fe62
-      internalID: -1994745027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_21
-      rect:
-        serializedVersion: 2
-        x: 94
-        y: 57
-        width: 12
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 339bb53f9e04ab349b39009913d69c97
-      internalID: 664147042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_22
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 50
-        width: 10
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70107123033b86a4ca0dd7e4bc7225ec
-      internalID: 329406892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_23
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 42
-        width: 23
-        height: 56
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 574ef25b0e5206a439c7aecbf9590718
-      internalID: -297169559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_24
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 60
-        width: 12
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b01def08d92a8fc49b519fd5690723ac
-      internalID: 11388577
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_25
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 42
-        width: 14
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13ce9b60d50d60b4fa05ee7d510080f2
-      internalID: 651506902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_26
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 41
-        width: 8
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 373d7cb3c3ec857478ce1d5ccea66e77
-      internalID: 960796580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_27
-      rect:
-        serializedVersion: 2
-        x: 257
-        y: 67
-        width: 4
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd91c2256bdb5a848a2de849935c5c53
-      internalID: 1388531660
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_28
-      rect:
-        serializedVersion: 2
-        x: 292
-        y: 33
-        width: 15
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a14a2e77af8ae334aac665f4ea6e8403
-      internalID: -2109510124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_29
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 57
-        width: 10
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb9492246f56d2d47b835fe6c1a8c82e
-      internalID: 1812196957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_30
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 11
-        width: 18
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 730c3ddfe7cb61545a2b9f83c530040e
-      internalID: -204261928
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_31
-      rect:
-        serializedVersion: 2
-        x: 172
-        y: 39
-        width: 5
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c218c125114ca24983b91a776e65f71
-      internalID: 651049075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_32
-      rect:
-        serializedVersion: 2
-        x: 200
-        y: 27
-        width: 8
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc18a4e0fe7bc9242bc737852eecd0c7
-      internalID: 296173588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_33
-      rect:
-        serializedVersion: 2
-        x: 221
-        y: 27
-        width: 8
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5e0583e9c6206247ad92499ede7621b
-      internalID: 261645968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_34
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 29
+        x: 102
+        y: 8
         width: 9
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c067eb2424829184fa30fbf93a5e0efb
-      internalID: 4679158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_35
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 18
-        width: 4
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd1cf7a58787f1d4abb628b1a663d7e5
-      internalID: -413021556
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_36
-      rect:
-        serializedVersion: 2
-        x: 149
-        y: 104
-        width: 7
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf9f7ee32049b4f45974b225be6e9e9f
-      internalID: 193568631
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_37
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 86
-        width: 5
-        height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d76800161cb3c9144ad0a5ce47ec04fa
-      internalID: 1665117080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 64x64 weapons final_38
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 2
-        width: 21
-        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -961,8 +310,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64d2d02db46eb32468f9ddf6752a92ce
-      internalID: -214583412
+      spriteID: 837bc3f9716215744a851e88ff9f05b0
+      internalID: -1305833724
       vertices: []
       indices: 
       edges: []
@@ -980,43 +329,12 @@ TextureImporter:
     nameFileIdTable:
       64x64 weapons final_0: -1122177200
       64x64 weapons final_1: -802844893
-      64x64 weapons final_10: 1977625061
-      64x64 weapons final_11: -1461154722
-      64x64 weapons final_12: 2129260803
-      64x64 weapons final_13: 653466192
-      64x64 weapons final_14: 1144475370
-      64x64 weapons final_15: 1593319697
-      64x64 weapons final_16: -501693521
-      64x64 weapons final_17: 1177321751
-      64x64 weapons final_18: 1469460769
-      64x64 weapons final_19: -857964922
       64x64 weapons final_2: 513198531
-      64x64 weapons final_20: -1994745027
-      64x64 weapons final_21: 664147042
-      64x64 weapons final_22: 329406892
-      64x64 weapons final_23: -297169559
-      64x64 weapons final_24: 11388577
-      64x64 weapons final_25: 651506902
-      64x64 weapons final_26: 960796580
-      64x64 weapons final_27: 1388531660
-      64x64 weapons final_28: -2109510124
-      64x64 weapons final_29: 1812196957
       64x64 weapons final_3: 757917627
-      64x64 weapons final_30: -204261928
-      64x64 weapons final_31: 651049075
-      64x64 weapons final_32: 296173588
-      64x64 weapons final_33: 261645968
-      64x64 weapons final_34: 4679158
-      64x64 weapons final_35: -413021556
-      64x64 weapons final_36: 193568631
-      64x64 weapons final_37: 1665117080
-      64x64 weapons final_38: -214583412
       64x64 weapons final_4: 1777139761
       64x64 weapons final_5: -10233075
       64x64 weapons final_6: -1850891621
       64x64 weapons final_7: -1305833724
-      64x64 weapons final_8: -1064956884
-      64x64 weapons final_9: -1600754141
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
